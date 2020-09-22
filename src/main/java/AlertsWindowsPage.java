@@ -4,5 +4,5 @@ public class AlertsWindowsPage {
 
     private WebDriver driver;
 
-    public FormsPage(WebDriver driver){this.driver = driver;}
+    public AlertsWindowsPage(WebDriver driver){this.driver = driver;}
 }

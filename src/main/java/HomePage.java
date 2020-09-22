@@ -23,9 +23,9 @@ public class HomePage {
         clickLink("Widgets");
         return new WidgetsPage(driver);
     }
-    public InteractionPage clickInteractionPage(){
+    public InteractionsPage clickInteractionPage(){
         clickLink("Interactions");
-        return new InteractionPage(driver);
+        return new InteractionsPage(driver);
     }
     public BooksPage clickBooksPage(){
         clickLink("Book Store Application");
